@@ -2,16 +2,19 @@ package com.seriouscompany.business.java.fizzbuzz.packagenamingpackage.interface
 
 /**
  * Manipulation for LoopContextState
+ *
  */
-public interface LoopContextStateManipulation {
+public interface LoopContextStateManipulation
+{
 
 	/**
-	 * @return
+	 * @return void
 	 */
-	public void start();
+	public void start(flagKeepThisThing);
 
 	/**
 	 * @return
+     *
 	 */
 	public boolean shouldProceed();
 
